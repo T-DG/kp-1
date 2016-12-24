@@ -3,6 +3,7 @@ session_start();
 
 if (!@$_SESSION['service']){
 	header("location: ../index.php");
+	echo "test";
 }
 
 ?>
